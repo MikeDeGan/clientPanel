@@ -9,8 +9,12 @@ class AppNavbar extends Component {
           <Link to="/" className="navbar-brand">
             Client Panel
           </Link>
-          <button className="navbar-toggler">
-            type="button" data-toggle="colapse" data-target="#navbarMain">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="colapse"
+            data-target="#navbarMain"
+          >
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarMain">
