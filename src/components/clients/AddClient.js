@@ -81,6 +81,7 @@ class AddClient extends Component {
                   type="email"
                   className="form-control"
                   name="email"
+                  required
                   onChange={this.onChange}
                   value={this.state.email}
                 />
