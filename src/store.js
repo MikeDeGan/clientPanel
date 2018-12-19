@@ -3,11 +3,14 @@ import firebase from 'firebase';
 import 'firebase/firestore';
 import { reactReduxFirebase, firebaseReducer } from 'react-redux-firebase';
 import { reduxFirestore, firestoreReducer } from 'redux-firestore';
+import apiKey from './components/auth/apiKey';
 // Reducers
 //@todo
 
+console.log(apiKey);
+
 const firebaseConfig = {
-  apiKey: '',
+  apiKey: apiKey,
   authDomain: 'reactclientpanelv2.firebaseapp.com',
   databaseURL: 'https://reactclientpanelv2.firebaseio.com',
   projectId: 'reactclientpanelv2',
